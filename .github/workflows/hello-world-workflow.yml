@@ -1,11 +1,6 @@
 name: Hello World Workflow
 
-on: 
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
+on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
